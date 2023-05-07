@@ -13,6 +13,7 @@ specifiers:
   postcss: ^8.4.23
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-firebase-hooks: ^5.1.1
   react-router-dom: ^6.11.1
   tailwindcss: ^3.3.2
   vite: ^4.3.2
@@ -21,6 +22,7 @@ dependencies:
   firebase: 9.21.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-firebase-hooks: 5.1.1_b2unba3xze4blmooc7onmxpy24
   react-router-dom: 6.11.1_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
@@ -2447,6 +2449,16 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-firebase-hooks/5.1.1_b2unba3xze4blmooc7onmxpy24:
+    resolution: {integrity: sha512-y2UpWs82xs+39q5Rc/wq316ca52QsC0n8m801V+yM4IC4hbfOL4yQPVSh7w+ydstdvjN9F+lvs1WrO2VYxpmdA==}
+    peerDependencies:
+      firebase: '>= 9.0.0'
+      react: '>= 16.8.0'
+    dependencies:
+      firebase: 9.21.0
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
