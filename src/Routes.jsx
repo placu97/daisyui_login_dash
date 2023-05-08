@@ -18,3 +18,12 @@ const ProjectRoutes = () => {
   );
 };
 export default ProjectRoutes;
+
+
+//todo:
+/*
+leggere react-firebase-hooks
+
+
+
+*/
