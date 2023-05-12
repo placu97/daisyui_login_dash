@@ -12,6 +12,6 @@ export default {
       fontFamily: { kd: "K2D" },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 }
 
