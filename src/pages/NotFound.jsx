@@ -9,7 +9,7 @@ const NotFound = () => {
         <img src="svg/globe.svg" className="w-10 h-10" alt="eye"/>
         <img src="svg/x-octagon.svg" className="w-10 h-10" alt="eye"/>
       </div>
-      <img src="/images/img_titleimage.png" alt="title" className="w-1/4 h-1/8" />
+      <img src="/images/Logo.png" alt="title" className="w-1/4 h-1/8" />
     </div>
   );
 };
