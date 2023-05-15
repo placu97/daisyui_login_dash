@@ -10,7 +10,7 @@ export default function HomeTest() {
  	const logIn = async function() {
 		const email = emailRef.current.value
 		const password = passwordRef.current.value
-		const res = await logInWithEmailAndPassword(email, password)
+		const res = await logInWithEmailAndPassword(email.trim(), password.trim())
 		if (res) {
 			navigate('/dashtest');
 		}

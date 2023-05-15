@@ -21,10 +21,10 @@ function DashTest() {
     // DrawerPage
 	<div  className="drawer drawer-mobile font-kd text-black">
 	<input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-	<div className="drawer-content flex flex-col items-center justify-start bg-base-100 px-4 py-1">
+	<div className="drawer-content flex flex-col items-center justify-start bg-base-100 md:px-4 md:py-1">
 	{/* <!-- Page content here --> */}
 		{/* Navbar */}
-		<div className="navbar bg-primary text-primary-content rounded-full ">
+		<div className="navbar bg-primary text-primary-content md:rounded-full ">
 			<label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden mr-1"><Menu/></label>
 			{/* <a className="btn btn-ghost normal-case text-xl">FirBuddy</a> */}
 			<img  src="images/Logo.png" className="btn hover:bg-base-100"></img>
